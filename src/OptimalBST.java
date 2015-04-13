@@ -13,6 +13,7 @@ public class OptimalBST {
 					double tmpSolution = p + solution[i][k - 1] + solution[k + 1][i + s];
 					if (tmpSolution < minSolution) minSolution = tmpSolution;
 				}
+//sdlfhkjdshfklj le anh vu
 				double tmpSolution = p + solution[i][i + s - 1];
 				if (tmpSolution < minSolution) minSolution = tmpSolution;
 				solution[i][i + s] = minSolution;
